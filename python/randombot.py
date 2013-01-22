@@ -11,8 +11,6 @@ import os
 newpath = os.path.abspath(os.path.join(os.path.dirname(__file__), 'server'))
 sys.path.insert(0, newpath)
 
-print(sys.path)
-
 from lobotomy import protocol
 
 SERVER_URL = 'localhost'
